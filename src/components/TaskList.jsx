@@ -7,7 +7,7 @@ function TaskList() {
 
   if (tasks.length === 0) {
     return (
-      <h1 className="text-white text-4xl font-bold text-center">
+      <h1 className="text-red-500 text-4xl font-bold text-center">
         No hay tareas aún
       </h1>
     );
